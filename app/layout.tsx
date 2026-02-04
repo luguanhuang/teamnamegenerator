@@ -3,17 +3,18 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+const faviconVersion = "20260204b";
 
 export const metadata: Metadata = {
   title: {
-    default: "Free Creative Team Names | Team Name Generator",
+    default: "Free Creative Team Name Generator | 10,000+ Team Name Ideas",
     template: "%s | Team Name Generator",
   },
   description: "Free team name generator for sports, work, trivia, and gaming. Pick a category, add a keyword, and get unlimited creative team name ideas instantly.",
   keywords: ["team name generator", "team name ideas", "funny team names", "work team names", "sports team names"],
   authors: [{ name: "Team Name Generator" }],
   openGraph: {
-    title: "Free Creative Team Names | Team Name Generator",
+    title: "Free Creative Team Name Generator | 10,000+ Team Name Ideas",
     description: "Free team name generator for sports, work, trivia, and gaming. Pick a category, add a keyword, and get unlimited creative team name ideas instantly.",
     type: "website",
     url: "https://teamnamegenerator.org",
@@ -21,9 +22,18 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Free Creative Team Names | Team Name Generator",
+    title: "Free Creative Team Name Generator | 10,000+ Team Name Ideas",
     description: "Free team name generator for sports, work, trivia, and gaming. Pick a category, add a keyword, and get unlimited creative team name ideas instantly.",
   },
+  icons: {
+    icon: [
+      { url: `/favicon-team.ico?v=${faviconVersion}` },
+      { url: `/favicon-team-32x32.png?v=${faviconVersion}`, type: "image/png", sizes: "32x32" },
+      { url: `/favicon-team-16x16.png?v=${faviconVersion}`, type: "image/png", sizes: "16x16" },
+    ],
+    apple: [{ url: `/apple-touch-icon-team.png?v=${faviconVersion}`, sizes: "180x180", type: "image/png" }],
+  },
+  manifest: `/site.webmanifest?v=${faviconVersion}`,
   alternates: {
     canonical: "https://teamnamegenerator.org",
   },

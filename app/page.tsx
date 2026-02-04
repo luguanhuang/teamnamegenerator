@@ -1,13 +1,13 @@
-import { Sparkles, Users, Zap, ChevronDown } from 'lucide-react';
+import { Sparkles, Zap, ChevronDown } from 'lucide-react';
 import Link from 'next/link';
 import { FaqAccordion } from './components/FaqAccordion';
 
 export const metadata = {
-  title: 'Free Creative Team Names',
+  title: 'Free Creative Team Name Generator | 10,000+ Team Name Ideas',
   description: 'Free team name generator for sports, work, trivia, and gaming. Pick a category, add a keyword, and get unlimited creative team name ideas instantly.',
   keywords: ['team name generator', 'team name ideas', 'funny team names', 'work team names', 'sports team names'],
   openGraph: {
-    title: 'Free Creative Team Names | Team Name Generator',
+    title: 'Free Creative Team Name Generator | 10,000+ Team Name Ideas',
     description: 'Free team name generator for sports, work, trivia, and gaming. Pick a category, add a keyword, and get unlimited creative team name ideas instantly.',
     type: 'website',
     url: 'https://teamnamegenerator.org',
@@ -26,9 +26,14 @@ export default function HomePage() {
       <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm border-b">
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-purple-600 rounded-xl flex items-center justify-center shadow-lg">
-              <Users className="w-6 h-6 text-white" />
-            </div>
+            <img
+              src="/favicon-team-32x32.png"
+              alt="Team Name Generator logo"
+              title="Team Name Generator"
+              className="w-8 h-8"
+              width={32}
+              height={32}
+            />
             <div>
               <span className="text-lg font-bold text-gray-900">
                 Team Name Generator
@@ -266,7 +271,7 @@ export default function HomePage() {
             </div>
           </div>
           <div className="border-t border-gray-700 pt-6 text-center text-xs text-gray-500">
-            <p>© 2025 Team Name Generator. All rights reserved.</p>
+            <p>© 2026 Team Name Generator. All rights reserved.</p>
             <p>The #1 free team name generator for creative team names.</p>
           </div>
         </div>
