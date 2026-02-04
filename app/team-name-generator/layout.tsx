@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Team Name Generator - 10,000+ Cool, Funny & Professional Ideas",
-  description: "The #1 Free Team Name Generator. Instantly generate creative names for work, sports, trivia, and hackathons. Choose from 6 categories and get unlimited unique names.",
-  keywords: ["team name generator", "cool team names", "funny team names", "sports team names", "business team names", "hackathon team names"],
+  title: "Generate Team Names",
+  description: "Generate team names for sports, work, trivia, and gaming. Choose a category and get unlimited creative ideas instantly.",
+  keywords: ["team name generator", "team name ideas", "funny team names", "work team names", "sports team names"],
   openGraph: {
-    title: "Team Name Generator - Find Your Perfect Team Name",
-    description: "Generate creative team names instantly. Free, no login required. Choose from 6 categories: Business, Sports, Funny, Tech, Animals, and Cool.",
+    title: "Generate Team Names | Team Name Generator",
+    description: "Generate team names for sports, work, trivia, and gaming. Choose a category and get unlimited creative ideas instantly.",
     type: "website",
     url: "https://teamnamegenerator.org/team-name-generator",
   },

@@ -6,23 +6,23 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    default: "Team Name Generator - Free Creative Team Names | 10,000+ Ideas",
+    default: "Free Creative Team Names | Team Name Generator",
     template: "%s | Team Name Generator",
   },
-  description: "The best free team name generator. Create cool, funny, and professional team names for sports, work, trivia, and more. Generate unlimited unique team names instantly.",
-  keywords: ["team name generator", "team names", "cool team names", "funny team names", "sports team names", "business team names", "team name ideas", "team naming"],
+  description: "Free team name generator for sports, work, trivia, and gaming. Pick a category, add a keyword, and get unlimited creative team name ideas instantly.",
+  keywords: ["team name generator", "team name ideas", "funny team names", "work team names", "sports team names"],
   authors: [{ name: "Team Name Generator" }],
   openGraph: {
-    title: "Team Name Generator - Free Creative Team Names | 10,000+ Ideas",
-    description: "The best free team name generator. Create cool, funny, and professional team names for sports, work, trivia, and more. Generate unlimited unique team names instantly.",
+    title: "Free Creative Team Names | Team Name Generator",
+    description: "Free team name generator for sports, work, trivia, and gaming. Pick a category, add a keyword, and get unlimited creative team name ideas instantly.",
     type: "website",
     url: "https://teamnamegenerator.org",
     siteName: "Team Name Generator",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Team Name Generator - Free Creative Team Names | 10,000+ Ideas",
-    description: "The best free team name generator. Create cool, funny, and professional team names for sports, work, trivia, and more.",
+    title: "Free Creative Team Names | Team Name Generator",
+    description: "Free team name generator for sports, work, trivia, and gaming. Pick a category, add a keyword, and get unlimited creative team name ideas instantly.",
   },
   alternates: {
     canonical: "https://teamnamegenerator.org",
@@ -48,8 +48,8 @@ export default function RootLayout({
                   "name": "Team Name Generator",
                   "alternateName": "Free Team Name Generator",
                   "url": "https://teamnamegenerator.org",
-                  "description": "The best free team name generator. Create cool, funny, and professional team names for sports, work, trivia, and more.",
-                  "keywords": "team name generator, team names, cool team names, funny team names, sports team names, business team names",
+                  "description": "Free team name generator for sports, work, trivia, and gaming. Pick a category, add a keyword, and get unlimited creative team name ideas instantly.",
+                  "keywords": "team name generator, team name ideas, funny team names, work team names, sports team names",
                   "potentialAction": {
                     "@type": "SearchAction",
                     "target": "https://teamnamegenerator.org/?q={search_term_string}",

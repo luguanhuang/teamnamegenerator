@@ -3,12 +3,12 @@ import Link from 'next/link';
 import { FaqAccordion } from './components/FaqAccordion';
 
 export const metadata = {
-  title: 'Team Name Generator - Free Creative Team Names | 10,000+ Unique Ideas',
-  description: 'The best free team name generator. Create cool, funny, and professional team names for sports, work, trivia, and more. Generate unlimited unique team names instantly.',
-  keywords: ['team name generator', 'team names', 'cool team names', 'funny team names', 'sports team names', 'business team names', 'team name ideas', 'team naming', 'free team name generator', 'online team name generator'],
+  title: 'Free Creative Team Names',
+  description: 'Free team name generator for sports, work, trivia, and gaming. Pick a category, add a keyword, and get unlimited creative team name ideas instantly.',
+  keywords: ['team name generator', 'team name ideas', 'funny team names', 'work team names', 'sports team names'],
   openGraph: {
-    title: 'Team Name Generator - Free Creative Team Names | 10,000+ Unique Ideas',
-    description: 'The best free team name generator. Create cool, funny, and professional team names for sports, work, trivia, and more. Generate unlimited unique team names instantly.',
+    title: 'Free Creative Team Names | Team Name Generator',
+    description: 'Free team name generator for sports, work, trivia, and gaming. Pick a category, add a keyword, and get unlimited creative team name ideas instantly.',
     type: 'website',
     url: 'https://teamnamegenerator.org',
     images: [{ url: 'https://teamnamegenerator.org/og-image.jpg' }],
