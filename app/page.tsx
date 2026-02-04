@@ -10,12 +10,12 @@ export const metadata = {
     title: 'Free Creative Team Name Generator | 10,000+ Team Name Ideas',
     description: 'Free team name generator for sports, work, trivia, and gaming. Pick a category, add a keyword, and get unlimited creative team name ideas instantly.',
     type: 'website',
-    url: 'https://teamnamegenerator.org',
-    images: [{ url: 'https://teamnamegenerator.org/og-image.jpg' }],
+    url: 'https://www.teamnamegenerator.online',
+    images: [{ url: 'https://www.teamnamegenerator.online/og-image.jpg' }],
   },
   robots: 'index, follow',
   alternates: {
-    canonical: 'https://teamnamegenerator.org',
+    canonical: 'https://www.teamnamegenerator.online',
   },
 };
 

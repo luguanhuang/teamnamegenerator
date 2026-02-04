@@ -8,10 +8,10 @@ export const metadata: Metadata = {
     title: "Generate Team Names | Team Name Generator",
     description: "Generate team names for sports, work, trivia, and gaming. Choose a category and get unlimited creative ideas instantly.",
     type: "website",
-    url: "https://teamnamegenerator.org/team-name-generator",
+    url: "https://www.teamnamegenerator.online/team-name-generator",
   },
   alternates: {
-    canonical: "https://teamnamegenerator.org/team-name-generator",
+    canonical: "https://www.teamnamegenerator.online/team-name-generator",
   },
 };
 

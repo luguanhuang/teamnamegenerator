@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     title: "Free Creative Team Name Generator | 10,000+ Team Name Ideas",
     description: "Free team name generator for sports, work, trivia, and gaming. Pick a category, add a keyword, and get unlimited creative team name ideas instantly.",
     type: "website",
-    url: "https://teamnamegenerator.org",
+    url: "https://www.teamnamegenerator.online",
     siteName: "Team Name Generator",
   },
   twitter: {
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   },
   manifest: `/site.webmanifest?v=${faviconVersion}`,
   alternates: {
-    canonical: "https://teamnamegenerator.org",
+    canonical: "https://www.teamnamegenerator.online",
   },
 };
 
@@ -57,12 +57,12 @@ export default function RootLayout({
                   "@type": "WebSite",
                   "name": "Team Name Generator",
                   "alternateName": "Free Team Name Generator",
-                  "url": "https://teamnamegenerator.org",
+                  "url": "https://www.teamnamegenerator.online",
                   "description": "Free team name generator for sports, work, trivia, and gaming. Pick a category, add a keyword, and get unlimited creative team name ideas instantly.",
                   "keywords": "team name generator, team name ideas, funny team names, work team names, sports team names",
                   "potentialAction": {
                     "@type": "SearchAction",
-                    "target": "https://teamnamegenerator.org/?q={search_term_string}",
+                    "target": "https://www.teamnamegenerator.online/?q={search_term_string}",
                     "query-input": "required name=search_term_string"
                   }
                 },
@@ -71,7 +71,7 @@ export default function RootLayout({
                   "name": "Team Name Generator",
                   "applicationCategory": "UtilityApplication",
                   "operatingSystem": "Web",
-                  "url": "https://teamnamegenerator.org",
+                  "url": "https://www.teamnamegenerator.online",
                   "offers": {
                     "@type": "Offer",
                     "price": "0",
@@ -93,7 +93,7 @@ export default function RootLayout({
                 {
                   "@type": "Organization",
                   "name": "Team Name Generator",
-                  "url": "https://teamnamegenerator.org",
+                  "url": "https://www.teamnamegenerator.online",
                   "description": "The leading free team name generator providing creative names for sports teams, work groups, and gaming clans.",
                   "foundingDate": "2024"
                 }
