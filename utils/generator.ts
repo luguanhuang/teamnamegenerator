@@ -45,8 +45,10 @@ const generateSingleName = (
   // Strategy weights (adds variety)
   const strategy = Math.random();
 
-  // 15% chance for pre-made pun/special name
-  if (strategy < 0.15 && PUN_NAMES[category]) {
+  const hasKeyword = !!(userKeyword && userKeyword.trim().length > 0);
+
+  // 15% chance for pre-made pun/special name (only when no keyword is provided)
+  if (!hasKeyword && strategy < 0.15 && PUN_NAMES[category]) {
     const puns = PUN_NAMES[category] as string[];
     return getRandomItem(puns);
   }
@@ -54,21 +56,17 @@ const generateSingleName = (
   const adj = getRandomItem(data.adjectives);
   const noun = getRandomItem(data.nouns);
 
-  // User keyword integration
-  if (userKeyword && userKeyword.trim().length > 0) {
-    const keyword = userKeyword.trim();
+  // User keyword integration (always include category noun when keyword is provided)
+  if (hasKeyword) {
+    const keyword = userKeyword!.trim();
     const keywordStrategy = Math.random();
 
-    if (keywordStrategy < 0.4) {
-      // 40%: Adjective + Keyword
-      return `${adj} ${keyword}`;
-    } else if (keywordStrategy < 0.7) {
-      // 30%: Keyword + Noun
+    if (keywordStrategy < 0.5) {
+      // 50%: Keyword + Noun
       return `${keyword} ${noun}`;
-    } else {
-      // 30%: Adjective + Keyword + Noun
-      return `${adj} ${keyword} ${noun}`;
     }
+    // 50%: Adjective + Keyword + Noun
+    return `${adj} ${keyword} ${noun}`;
   }
 
   // 30% chance for alliteration (same starting letter)
